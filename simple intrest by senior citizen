@@ -1,0 +1,10 @@
+p=int(input("enter the principle amount : "))
+t=int(input("enter the time period : "))
+sc=input("senior citizen yes/no : ")
+g=input("male/female : ")
+if(sc=='y' and g=='m'):
+ print("Simple Intrest = ",(p*t*12)/100)
+elif(sc=='y' and g=='f'):
+ print("Simple Intrest = ",(p*t*15)/100)
+else
+ print("Simple Intrest = ",(p*t*10)/100)
